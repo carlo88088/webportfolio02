@@ -7,12 +7,9 @@
 
 * {
 	font-family: "Montserrat", sans-serif;
-	font-size: 40px;
 }
 
 .bg-image {
-	text-align: left;
-	color: white;
 	background-image: url("./images/GCM.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -20,9 +17,12 @@
 	background-attachment: scroll;
 }
 
-.underline {
-	border-top: 1px solid red;
-	border: 1px solid red;
-	border-color: 1px solid red;
-	border-style: solid;
+#bg-image {
+    background-image: url("./images/GCM.png");
+    min-height: 45vh;
+    background-repeat : no-repeat;
+    background-size: cover;
+    background-position: 75% 50%;
+    background-attachment: scroll;
+    display: absolute;
 }
