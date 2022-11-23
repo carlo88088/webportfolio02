@@ -26,3 +26,18 @@
     background-attachment: scroll;
     display: absolute;
 }
+
+.card-title {
+	border-bottom: cyan;
+	border-style: solid;
+	border-right: white;
+	border-left: white;
+	border-top: white;
+	padding-bottom: 1rem;
+	color: black;
+	font-weight: bold;
+}
+
+.card-body {
+	background-color: #C5C6C7;
+}
